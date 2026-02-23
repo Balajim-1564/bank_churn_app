@@ -16,7 +16,7 @@ feature_columns = joblib.load("feature_columns.pkl")
 
 st.set_page_config(page_title="Bank Churn Risk Scoring", layout="wide")
 
-st.title("🏦 Bank Customer Churn Risk Predictor")
+st.title("🏦 Predictive Modeling and Risk Scoring for Bank Customer Churn")
 
 st.write(
     "This application predicts **customer churn probability** and assigns a **risk level** "
